@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dfatappointmenttracker"
+version = "0.1.0"
+description = ""
+authors = ["Muhammad Amasha <muhammadamasha@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
